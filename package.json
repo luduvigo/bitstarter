@@ -22,5 +22,8 @@
     "express"
   ],
   "author": "luduvigo - Paolo Antonio Rossi",
-  "license": "MIT"
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "a5e8b6d9dee37ca378bebcdb45caa86ae0320d8c",
+  "devDependencies": {}
 }
