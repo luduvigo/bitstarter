@@ -23,23 +23,11 @@
         }
       }
 
-      /* Landscape phones and down */
-      @media (max-width: 480 px) {
-        .copy {
-          padding: 2.5% 10%;
-        }
-        .linediv-l {
-          border-bottom: 1px white solid;
-        }
-        .linediv-r {
-          border-top: 1px white solid;
-        }
-      }
 
       /* All for factors*/
       
       /* Main body and headings*/
-      body {
+      body{
         font-family: 'Open-Sans', Helvetica, Arial, sans-serif;
       }
       .heading, .subheading {
@@ -67,37 +55,76 @@
         background-color: #343434;
         padding: 3% 0%;
       }
-      .video, .thermometer, .order, .social, .statistics {
+      .videom, .thermometer, .order, .social, .statistics {
         text-align: center;
       }
       .statistics h3, .statistics p {
         color: white;
       }
-    
-    /* Marketing Copy and Footer*/
-      .copy {
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
-        text-align: justify;
-      }
-      .asset {
-        padding: 2.5% 0%;
-      }
-      .footer {
-         color: #cccccc;
-         text-aligh: center;
-      }
-      .footer p {
-        font-size: 11px;
-      }
-      .footer a {
-        color: #ccccff;
-      }
+      
     </style>
-
-
   </head>
   <body>
+    <div class="container">
+      <div class="row navigation">
+        <div class="span2 logo">
+          Logo
+        </div>
+        <div class="span6 blank">
+          Blank
+        </div>
+        <div class="span4 about">
+          About
+        </div>
+      </div>
+      <div class="row heading">
+        <div class="span12">
+          <h1>Bitstarter Title</h1>
+        </div>
+      </div> 
+      <div class="row subheading">
+        <div class="span12">
+          <p class="lead">This is my first bitstarter project.</p>
+        </div>
+      </div>
+      <div class="row pitch">
+        <div class="span6 video">
+          Video
+        </div>
+        <div class="span6">
+          <div class="thermometer">
+            Thermometer
+          </div>
+          <div class="order">
+            Order
+          </div>
+          <div class="social">
+            Social
+          </div>
+        </div>
+      </div>
+      <div class="row section1">
+        <div class="span12">
+          Marketing Section 1
+        </div>
+      </div>
+      <div class="row section2">
+        <div class="span12">
+          Marketing Section 2
+        </div>
+      </div>
+      <div class="row faq">
+        <div class="span12">
+          FAQ
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="span12">
+          Footer
+        </div>
+      </div>
+    </div>
+  </body>
 
   <!-- Mobile-friendly navbar -->
   <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
@@ -133,31 +160,7 @@
       <div class="span5 offset1 video">
         <img class="polaroid" src="http://placehold.it/480x300">
       </div>
-  
-    <div class="span5 actions">
-      <div class="span8 offset2">
-        <div class="statistics">
-          <div  class="span4">
-            <div class="linediv-l">
-              <h3>1000</h3><p>backers</p>
-            </div>
-          </div>
-          <div class="span4">
-            <div class="linediv-c">
-              <h3>$6000</h3><p> of $10000</p>
-            </div>
-          </div>
-          <div class="span4">
-            <div class="linediv-r">
-              <h3>10</h3><p> days left</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
     </div>
+    
   </div>
-  </div>
-
-  </body>
 </html>
