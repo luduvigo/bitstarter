@@ -1,12 +1,13 @@
-var express = require('express')
+var express = require('express');
+var favicon = require('serve-favicon');
+
 var app = express();
 
 app.set('port', (process.env.PORT || 5000))
+app.use(favicon(__dirname + '/favicon.ico'))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  //var buffer = new Buffer(fs.readFileSync("hello.index"), "utf-8")
-  //response.send(buffer)
 
   var fs = require('fs');
   fs.readFile('./index.html', function (err, html) {
